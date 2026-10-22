@@ -1,0 +1,26 @@
+# Build output
+**/bin/
+**/obj/
+**/dist/
+**/node_modules/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+
+# Test and coverage
+TestResults/
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
